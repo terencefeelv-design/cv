@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Térence Michel Bidima</title>
+    <style>
+        body {
+            background: #f8f9fa;
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #222;
+        }
+
+        .cv-header {
+            background: linear-gradient(90deg, #007f7f, #009999);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .cv-header img {
+            display: block;
+            margin: 0 auto 16px;
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 32px auto 0 auto;
+            background: #fff;
+            border-radius: 9px;
+            box-shadow: 0 2px 16px rgba(0, 0, 0, 0.10);
+            padding: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 1.2rem;
+            margin-top: 2rem;
+            color: #007f7f;
+            font-weight: bold;
+            border-bottom: 2px solid #007f7f;
+            margin-bottom: 12px;
+            padding-bottom: 3px;
+            letter-spacing: 1px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 1.5em;
+        }
+
+        ul u {
+            font-weight: bold;
+            color: #005f5f;
+            font-size: 1.06em;
+            letter-spacing: 0.5px;
+            text-decoration: underline;
+        }
+
+        ul span {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 6px;
+        }
+
+        ul li {
+            margin-right: 15px;
+        }
+
+        meter {
+            width: 4.8em;
+            height: 0.8em;
+            accent-color: #00dcdc;
+            border-radius: 4px;
+            background: #e8f6fc;
+            display: inline-block;
+        }
+
+        @media (max-width:700px) {
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cv-header">
+        <img src="img/Id_photo.png" alt="Photo identité">
+        <h1>Térence Michel Bidima</h1>
+        <h3>Technicien ES — Systèmes industriels</h3>
+        <div>
+            <strong>Contact : </strong>
+            <ul>
+                <li><a href="mailto:terence.feelv@hotmail.com" style="color:white;">terence.feelv@hotmail.com</a></li>
+                <li>Solothurn, Biel, Saignelégier</li>
+            </ul>
+        </div>
+        <div>
+            <strong>Langues : </strong>
+            <ul>
+                <li>Français : C2</li>
+                <li>English : C1</li>
+                <li>Deutsch : B2</li>
+                <li>Español : A2</li>
+                <li>Russe : A2</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section-title">Résumé personnel</div>
+        <p>
+            Actuellement en formation continue en tant que Technicien d'ingénierie des systèmes Industriels ES à la HFTM
+            de Bienne.<br>
+            Passionné par la mécanique, l’automatisation et la recherche de solutions techniques, je développe mes
+            compétences académique dans la conception, la réparation et la mise en service de systèmes complexes,
+            met également ces compétences à la disposition de mon entouragae proche et semi-proche.
+        </p>
+
+        <div class="section-title">Parcours professionnel</div>
+        <details>
+            <summary>2019–2021 — Service Militaire</summary>
+            <p>Affectation : Défense anti-aérienne, installations-radars, surveillance aérienne et guidage Stinger.</p>
+        </details>
+        <details>
+            <summary>2021–2023 — Top Events Schweiz AG</summary>
+            <p>Technicien événementiel, logistique, chef de projet pour la gestion de contrats et maintenance de
+                matériel.</p>
+        </details>
+        <details>
+            <summary>2023–2024 — Voyage Linguistique</summary>
+            <p>Niveau d’anglais acquis : B2 → C1.</p>
+        </details>
+        <details>
+            <summary>2024 — Technicien 3HLE (Saisonnier)</summary>
+            <p>Prototypage, modélisation 3D, création de schémas électriques et documents de présentation.</p>
+        </details>
+        <details>
+            <summary>2025 — Projets de semestre réalisés (HFTM)</summary>
+            <ul>
+                <li>Conception et simulation de systèmes automatisés avec PLC Siemens.</li>
+                <li>Implémentation de communication IO-Link, OPC-UA, Node-RED.</li>
+                <li>Programmation et simulation de robots ABB, KUKA, FANUC, YASKAWA, UR.</li>
+                <li>Développement d’un système IoT industriel avec tableau de bord web.</li>
+            </ul>
+        </details>
+        <details>
+            <summary>2024 — Année de préparation</summary>
+            <p>Cours en mathématiques, gestion d’entreprise, développement durable.</p>
+        </details>
+        <details>
+            <summary>2019 — Projet de fin d’apprentissage EMT</summary>
+            <p>Robot motorisé télécommandé avec système d’imagerie via Arduino.</p>
+        </details>
+        <details>
+            <summary>Hobbies</summary>
+            <ul>
+                <li>Aviation & VATSIM</li>
+                <li>Simulation & conception</li>
+                <li>Sports & exploration</li>
+            </ul>
+        </details>
+
+
+
+        <div class="section-title">Compétences & Outils</div>
+        <section id="paletteSoftware">
+            <ul>
+                <u>Automatisation & Industrie</u><br><br>
+                <span>
+                    <li>Boris Simulation</li><meter value="0.8" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Codesys</li><meter value="0.6" min="0" max="1"></meter>
+                </span>
+                <span>Cognex In-Sight<meter value="1"></meter></span>
+                <span>
+                    <li>Draw.io</li><meter value="1" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Factory I/O</li><meter value="1" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Filius</li><meter value="0.7" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Inventor</li><meter value="0.85" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Ni - MultiSim</li><meter value="0.65" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Node-RED</li><meter value="0.8" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>PrusaSlicer</li><meter value="1" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>ROS2Humble</li><meter value="0.4" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Siemens NX</li><meter value="1" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Siemens TIA Portal</li><meter value="1" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>SolidWorks</li><meter value="0.6" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Target 3001</li><meter value="0.7" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>TinkerCad</li><meter value="1" min="0" max="1"></meter>
+                </span>
+            </ul>
+
+            <br>
+            <ul>
+                <u>Programmation</u><br><br>
+                <span>
+                    <li>C</li><meter value="0.5" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Git</li><meter value="0.6" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>HTML / CSS</li><meter value="0.8" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>JavaScript</li><meter value="0.7" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Maria & HeidiSQL</li><meter value="0.8" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Ni - MultiSim</li><meter value="0.6" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>VisualStudioCode</li><meter value="0.9" min="0" max="1"></meter>
+                </span>
+            </ul>
+
+            <br>
+            <ul>
+                <u>Doc / Divers</u><br><br>
+                <span>
+                    <li>Office Excel</li><meter value="1" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Office Word</li><meter value="1" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Office PowerPoint</li><meter value="1" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Adobe Photoshop</li><meter value="0.5" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Blender</li><meter value="0.3" min="0" max="1"></meter>
+                </span>
+            </ul>
+
+            <br>
+            <ul>
+                <u>OS</u><br><br>
+                <span>
+                    <li>Mac OSX</li><meter value="1" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Windows</li><meter value="1" min="0" max="1"></meter>
+                </span>
+                <span>
+                    <li>Linux</li><meter value="0.8" min="0" max="1"></meter>
+                </span>
+            </ul>
+        </section>
+    </div>
+
+</body>
+
+</html>
